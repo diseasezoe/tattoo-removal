@@ -788,6 +788,17 @@ ul {
   opacity: 0.5;
 }
 
+.pricing__note {
+  margin-top: 2.5rem;
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  text-align: center;
+  max-width: 680px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.7;
+}
+
 /* --- FAQ --- */
 .faq__inner {
   max-width: 760px;
@@ -914,9 +925,6 @@ ul {
 
 /* --- Form --- */
 .contact__form {
-  background: var(--card-bg);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
   padding: 2.5rem;
 }
 
@@ -1055,10 +1063,6 @@ ul {
 
 .contact__checklist {
   margin-top: 2rem;
-  padding: 1.5rem;
-  background: rgba(255,255,255,.03);
-  border: 1px solid var(--border);
-  border-radius: 12px;
 }
 
 .contact__checklist p {
