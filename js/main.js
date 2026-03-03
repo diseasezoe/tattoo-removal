@@ -1,5 +1,5 @@
 /* ===================================
-   HIDN.tattoo REMOVAL — Main JS
+   Tattoo Removal — Main JS
    =================================== */
 
 (function () {
