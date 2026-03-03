@@ -16,7 +16,23 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.tattooremoval.cz/">
   <meta property="og:locale" content="cs_CZ">
-  <!-- <meta property="og:image" content="https://www.tattooremoval.cz/img/og-image.jpg"> -->
+  <meta property="og:image" content="https://www.tattooremoval.cz/img/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Tattoo Removal — profesionální odstranění tetování v Praze">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Odstranění tetování Praha | Tattoo Removal">
+  <meta name="twitter:description" content="Profesionální odstranění tetování picosekundovým laserem v Praze 7. Bez jizev, certifikovaná technologie.">
+  <meta name="twitter:image" content="https://www.tattooremoval.cz/img/og-image.jpg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+  <meta name="theme-color" content="#0F0F1A">
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,21 +45,87 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "LocalBusiness",
+    "@type": "HealthAndBeautyBusiness",
     "name": "Tattoo Removal",
     "description": "Profesionální odstranění tetování picosekundovým laserem v Praze 7.",
-    "url": "https://www.tattooremoval.cz",
+    "url": "https://www.tattooremoval.cz/",
     "email": "info@tattooremoval.cz",
+    "image": "https://www.tattooremoval.cz/img/og-image.jpg",
     "address": {
       "@type": "PostalAddress",
-      "addressLocality": "Praha 7",
-      "addressRegion": "Letná",
+      "addressLocality": "Praha 7 — Letná",
+      "addressRegion": "Hlavní město Praha",
       "addressCountry": "CZ"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 50.1005,
+      "longitude": 14.4275
+    },
+    "areaServed": {
+      "@type": "City",
+      "name": "Praha"
     },
     "priceRange": "1000–4000+ Kč",
     "openingHours": "Mo-Fr 09:00-18:00",
     "sameAs": [
       "https://www.instagram.com/tattoo_removal_cz/"
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Dá se tetování kompletně odstranit?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ano. Neexistuje tetování, které by nešlo odstranit — jde jen o správný postup a počet opakování. Některá tetování (starší, černá) reagují rychleji, jiná (barevná, hluboká) potřebují více trpělivosti."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Kolik sezení budu potřebovat?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Záleží na barvě, stáří, hloubce a typu kůže. Malé černé tetování obvykle 3–5 sezení, větší barevné 8+. Při konzultaci vám dáme realistický odhad — nelžeme a neslibujeme zázraky."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Vzniknou po odstranění jizvy?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Při správném postupu ne. Picosekundový laser pracuje v extrémně krátkých pulsech, které rozbíjí pigment bez poškození okolní tkáně."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Bolí to?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Upřímně — trochu ano. Většina klientů to přirovnává k pocitu praskající gumičky na kůži. Procedura je ale krátká a zvládne to každý."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Jak dlouho trvá hojení mezi sezeními?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Mezi jednotlivými sezeními doporučujeme rozestup 6–8 týdnů. Tělo potřebuje čas na vstřebání rozbitého pigmentu. Přesné instrukce k péči o kůži dostanete po každém ošetření."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Mohu si nechat tetování jen zesvětlit pro cover-up?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Samozřejmě. Zesvětlení pro cover-up je jednou z nejčastějších zakázek. Obvykle stačí méně sezení než při kompletním odstranění."
+        }
+      }
     ]
   }
   </script>
@@ -160,7 +242,10 @@
         </div>
       </div>
       <div class="about__image">
-        <img src="img/tattoo-removal-action.png" alt="Laserové odstranění tetování v praxi — picosekundový laser na kůži" loading="lazy" width="600" height="800">
+        <picture>
+          <source srcset="img/tattoo-removal-action.webp" type="image/webp">
+          <img src="img/tattoo-removal-action.png" alt="Laserové odstranění tetování v praxi — picosekundový laser na kůži" loading="lazy" width="600" height="800">
+        </picture>
       </div>
     </div>
   </section>
@@ -250,10 +335,10 @@
         <div class="gallery__item">
           <div class="ba-slider" data-before="Before" data-after="After">
             <div class="ba-slider__img ba-slider__img--after">
-              <img src="img/after-1.png" alt="Po odstranění tetování — čistá kůže bez jizev" draggable="false">
+              <img src="img/after-1.webp" alt="Po odstranění tetování — čistá kůže bez jizev" draggable="false" width="1024" height="1536">
             </div>
             <div class="ba-slider__img ba-slider__img--before">
-              <img src="img/before-1.png" alt="Před odstraněním — tetování na paži" draggable="false">
+              <img src="img/before-1.webp" alt="Před odstraněním — tetování na paži" draggable="false" width="1024" height="1536">
             </div>
             <div class="ba-slider__handle">
               <div class="ba-slider__line"></div>
@@ -267,10 +352,10 @@
         <div class="gallery__item">
           <div class="ba-slider" data-before="Before" data-after="After">
             <div class="ba-slider__img ba-slider__img--after">
-              <img src="img/after-2.png" alt="Po odstranění tetování — čistá kůže bez jizev" draggable="false">
+              <img src="img/after-2.webp" alt="Po odstranění tetování — čistá kůže bez jizev" draggable="false" width="1024" height="1536">
             </div>
             <div class="ba-slider__img ba-slider__img--before">
-              <img src="img/before-2.png" alt="Před odstraněním — tetování na pažích" draggable="false">
+              <img src="img/before-2.webp" alt="Před odstraněním — tetování na pažích" draggable="false" width="1024" height="1536">
             </div>
             <div class="ba-slider__handle">
               <div class="ba-slider__line"></div>

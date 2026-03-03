@@ -89,8 +89,6 @@
     observer.observe(el);
   });
 
-  });
-
   // --- Before / After slider ---
   document.querySelectorAll('.ba-slider').forEach(function (slider) {
     var beforeWrap = slider.querySelector('.ba-slider__img--before');
